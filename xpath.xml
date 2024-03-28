@@ -1,0 +1,8 @@
+1. Select all posts:
+/microblog/post
+
+2. Select posts by a specific author (e.g., Alice):
+/microblog/post[author='Alice']
+
+3. Select posts published after a certain date (e.g., after 2024-02-25):
+/microblog/post[date > '2024-02-25']
